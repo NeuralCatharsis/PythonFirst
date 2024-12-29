@@ -24,7 +24,7 @@ while want_loop:
     else:
      res=x/y
      print(f"{x}÷{y}={res}")
- want_loop=input("Run program again? (Y/N)\n")
+ want_loop=input("Run program again? (Y/N)\n").lower()
  if want_loop=="n":
     print("Ending loop...\n")
     break
